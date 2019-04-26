@@ -21,7 +21,7 @@ object TestMain {
       .sortBy(_._2)
       .foreach(println(_))
 
-    rdd.reduceByKey(_ + _).collect().sortBy(_._2).foreach(println(_))
+    rdd.reduceByKey(_ + _).collect().sortBy(_._2).foreach(println(_))// 测试
   }
 
 }
